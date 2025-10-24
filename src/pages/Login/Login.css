@@ -1,0 +1,98 @@
+.login{
+    height: 100vh;
+    padding: 20px 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .login-logo{
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+.login-form{
+    width: 100%;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 45px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.login-form input{
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: white;
+    margin: 8px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    padding: 16px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login-form input::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login-form button{
+    width: 100%;
+    border: 0;
+    padding: 16px;
+    background: #e50914;
+    color: white;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #b3b3b3;
+    margin-top: 10px;
+}
+
+.form-help .need-help{
+    cursor: pointer;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.remember input{
+    width: 18px;
+    height: 18px;
+}
+
+.form-switch{
+    margin-top: 30px;
+    color: #737373;
+    align-self: center;
+}
+
+.form-switch span{
+    color: #fff;
+    margin-left: 6px;
+    font-weight: 500;
+    cursor: pointer;
+}

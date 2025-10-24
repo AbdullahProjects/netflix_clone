@@ -30,6 +30,10 @@
     cursor: pointer;
 }
 
+.navbar-left ul li:hover{
+    text-decoration: underline;
+}
+
 .navbar-right {
     display: flex;
     align-items: center;
