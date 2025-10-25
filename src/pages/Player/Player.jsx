@@ -42,7 +42,7 @@ useEffect(() => {
   })
   .catch(err => {
     console.error(err);
-    setError("Something went wrong while fetching video data.")
+    setError(err);
   }).finally(() => setLoading(false));
 }, [id])
 
