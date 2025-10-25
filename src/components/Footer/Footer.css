@@ -41,3 +41,26 @@
     color: grey;
     align-self: center;
 }
+
+@media (max-width: 800px){
+    .footer{
+        padding: 20px;
+    }
+    .footer .footer-icons img{
+        width: 20px;
+    }
+
+    .footer ul{
+        grid-template-columns: auto auto;
+        gap: 8px;
+        font-size: 14px;
+    }
+
+    .footer ul li{
+        font-size: 12px;
+    }
+
+    .copyright-text{
+        font-size: 12px;
+    }
+}
